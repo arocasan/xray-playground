@@ -30,6 +30,34 @@ qa_1 = json.dumps({
 
 
 qa_2 = json.dumps({
+
+    "info": {
+        "summary" : "Come on!!!"
+    },
+
+    "tests" : [
+    
+        {
+            "testKey" : "QA-1",
+            "start" : "2022-05-03T12:19:23+01:00",
+            "finish" : "2022-05-03T12:20:01+01:00",
+            "comment" : "Error d space shuttle speed.",
+            "status" : "PASSED",
+            "examples" : [
+                "PASSED",
+                "PASSED",
+                "PASSED",
+                "PASSED",
+                "PASSED",
+                "FAILED",
+                "PASSED"
+            ]
+        }
+    ]
+})
+
+qa_3 = json.dumps(
+    {
     "tests" : [
     
         {
@@ -48,6 +76,5 @@ qa_2 = json.dumps({
             ]
         }
     ]
-})
-
-qa_3 = json.dumps
+}
+)
